@@ -2362,6 +2362,7 @@
                 })();
             function I() {
                 var e = document.getElementById("emoji-palette");
+                e && e.remove();
                 // (document.getElementById("emoji-close-div").style.display = "none"), e && e.remove();
             }
             function B(e) {
@@ -2528,6 +2529,7 @@
                 })();
             function Z() {
                 var e = document.getElementById("textarea-emoji");
+                e && e.remove();
                 // (document.getElementById("emoji-close-div").style.display = "none"), e && e.remove();
             }
             function $(e, n, d) {
