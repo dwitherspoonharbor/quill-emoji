@@ -2318,10 +2318,10 @@
                                                   var d = document.createElement("div");
                                                   (d.id = "tab-panel"), e.appendChild(d);
                                                   var i = document.createElement("ul");
-                                                  /* if ((n.appendChild(i), null === document.getElementById("emoji-close-div"))) {
+                                                  if ((n.appendChild(i), null === document.getElementById("emoji-close-div"))) {
                                                       var m = document.createElement("div");
                                                       (m.id = "emoji-close-div"), m.addEventListener("click", I, !1), document.getElementsByTagName("body")[0].appendChild(m);
-                                                  } else document.getElementById("emoji-close-div").style.display = "block"; */
+                                                  } else document.getElementById("emoji-close-div").style.display = "block";
                                                   [
                                                       { type: "p", name: "people", content: '<div class="i-people"></div>' },
                                                       { type: "n", name: "nature", content: '<div class="i-nature"></div>' },
@@ -2362,8 +2362,7 @@
                 })();
             function I() {
                 var e = document.getElementById("emoji-palette");
-                e && e.remove();
-                // (document.getElementById("emoji-close-div").style.display = "none"), e && e.remove();
+                (document.getElementById("emoji-close-div").style.display = "none"), e && e.remove();
             }
             function B(e) {
                 return e.getSelection();
@@ -2485,10 +2484,10 @@
                                         var c = document.createElement("div");
                                         (c.id = "tab-toolbar"), r.appendChild(c);
                                         var n = document.createElement("ul");
-                                        /* if ((c.appendChild(n), null === document.getElementById("emoji-close-div"))) {
+                                        if ((c.appendChild(n), null === document.getElementById("emoji-close-div"))) {
                                             var d = document.createElement("div");
                                             (d.id = "emoji-close-div"), d.addEventListener("click", Z, !1), document.getElementsByTagName("body")[0].appendChild(d);
-                                        } else document.getElementById("emoji-close-div").style.display = "block"; */
+                                        } else document.getElementById("emoji-close-div").style.display = "block";
                                         var i = document.createElement("div");
                                         (i.id = "tab-panel"), r.appendChild(i);
                                         var m = this.quill;
@@ -2529,8 +2528,7 @@
                 })();
             function Z() {
                 var e = document.getElementById("textarea-emoji");
-                e && e.remove();
-                // (document.getElementById("emoji-close-div").style.display = "none"), e && e.remove();
+                (document.getElementById("emoji-close-div").style.display = "none"), e && e.remove();
             }
             function $(e, n, d) {
                 var o = new p.a(c, { shouldSort: !0, matchAllTokens: !0, threshold: 0.3, location: 0, distance: 100, maxPatternLength: 32, minMatchCharLength: 3, keys: ["category"] }).search(e);
