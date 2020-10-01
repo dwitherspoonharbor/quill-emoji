@@ -2362,7 +2362,7 @@
                 })();
             function I() {
                 var e = document.getElementById("emoji-palette");
-                (document.getElementById("emoji-close-div").style.display = "none"), e && e.remove();
+                /* (document.getElementById("emoji-close-div").style.display = "none"),  e && e.remove(); */
             }
             function B(e) {
                 return e.getSelection();
@@ -2528,7 +2528,7 @@
                 })();
             function Z() {
                 var e = document.getElementById("textarea-emoji");
-                (document.getElementById("emoji-close-div").style.display = "none"), e && e.remove();
+                /* (document.getElementById("emoji-close-div").style.display = "none") , e && e.remove(); */
             }
             function $(e, n, d) {
                 var o = new p.a(c, { shouldSort: !0, matchAllTokens: !0, threshold: 0.3, location: 0, distance: 100, maxPatternLength: 32, minMatchCharLength: 3, keys: ["category"] }).search(e);
